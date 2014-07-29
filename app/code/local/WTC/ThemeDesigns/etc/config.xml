@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <WTC_ThemeDesigns>
+      <version>0.1.0</version>
+    </WTC_ThemeDesigns>
+  </modules>
+  <global>
+    <helpers>
+      <themedesigns>
+        <class>WTC_ThemeDesigns_Helper</class>
+      </themedesigns>
+    </helpers>
+	<blocks>
+	  <themedesigns>
+		<class>WTC_ThemeDesigns_Block</class>
+	  </themedesigns>
+	</blocks>
+	<models>
+	  <themedesigns>
+		<class>WTC_ThemeDesigns_Model</class>
+	  </themedesigns>
+	</models>
+  </global>
+  <admin>
+	<routers>
+	  <themedesigns>
+	    <use>admin</use>
+		<args>
+		  <module>WTC_ThemeDesigns</module>
+		  <frontName>themedesign</frontName>
+		</args>
+	  </themedesigns>
+	</routers>
+  </admin>
+</config> 

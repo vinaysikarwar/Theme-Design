@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <WTC_ThemeDesigns>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </WTC_ThemeDesigns>
+  </modules>
+</config>
