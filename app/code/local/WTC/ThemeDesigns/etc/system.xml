@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config>
 	  <tabs>
-		<wtc translate="label" module="design">
+		<wtc translate="label" module="themedesigns">
             <label>Web Technology Codes</label>
             <sort_order>0</sort_order>
         </wtc>
